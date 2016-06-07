@@ -2,20 +2,24 @@
 <html>
   <head>
     <title>Country App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="app.js"></script>
   </head>
   <body>
     <h1>Countries</h1>
     <ul id="country-list">
     </ul>
+    <div class="styled-select">
     <select id="drop-down" onchange="showCountry()">
 
     </select>
-    <p>
-      Country details
-    </p>
-    <p id="country-name"></p>
-    <p id="capital"></p>
-    <p id="population"></p>
+    </div>
+
+    <h3>
+      Country details:
+    </h3>
+    <i><p id="country-name"></p></i>
+    <i><p id="capital"></p></i>
+    <i><p id="population"></p></i>
   </body>
 </html>
